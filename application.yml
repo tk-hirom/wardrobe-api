@@ -1,0 +1,11 @@
+app:
+  text: "my best clothes"
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+app:
+  text: "my test clothes"
