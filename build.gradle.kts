@@ -7,6 +7,13 @@ plugins {
 	kotlin("plugin.spring") version "1.9.23"
 }
 
+subprojects {
+	apply(plugin = "org.springframework.boot")
+	apply(plugin = "io.spring.dependency-management")
+	apply(plugin = "org.jetbrains.kotlin.jvm")
+	apply(plugin = "org.jetbrains.kotlin.plugin.spring")
+}
+
 group = "com.example"
 version = "0.0.1-SNAPSHOT"
 
