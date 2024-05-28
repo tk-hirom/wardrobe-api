@@ -1,7 +1,7 @@
 package com.example.wardrobeapi
 
 
-class Cloth(
+class ClothResponse(
     val name: String
 ) {
 }
